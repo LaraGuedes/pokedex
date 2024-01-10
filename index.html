@@ -19,7 +19,18 @@
     <section class="content">
         <h1>Pokedex</h1>
 
-        <ol class=" pokemons">
+    
+        <ol id="pokemonList" class="pokemons">
+            <!-- ..... Pokemons here ..... -->
+        </ol>
+
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Load More
+            </button>
+        </div>
+
+        <!--<ol class=" pokemons">
 
             <li class="pokemon">
                 <span class="number">#001</span>
@@ -34,7 +45,7 @@
                 </div>
             </li>
 
-            <!-- <li>
+            <li> 
                 Ivysaur
                 <img src="./img/ivysaur.png" alt="Ivysaur">
             </li>
@@ -61,6 +72,8 @@
 
     <!-- Nosso JS -->
     <script src="./scrip.js"> </script>
+    <script src="./style-model.js"> </script>
+    <script src="./main.js"> </script>
 </body>
 
 </html>
